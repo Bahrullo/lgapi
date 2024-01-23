@@ -10,6 +10,6 @@ export async function records(){
         if (err) throw err;
         return data
         // return JSON.parse(data);
-    }).toString;
-    console.log(phones);
+    }).toString();
+    // console.log(phones);
 }
